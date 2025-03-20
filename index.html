@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensaje</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="screen screen-main">
+        <button id="startBtn">Iniciar</button>
+    </div>
+    <div class="screen screen-spoiler">
+        <h1>¡Espera un momento!</h1>
+        <p>¿Estás lista para saber algo importante?</p>
+        <button id="nextBtn">Siguiente</button>
+    </div>
+    <div class="screen screen-mensaje">
+        <div class="cats">
+            <img src="Assets/gato2.png" alt="Gato 1">
+        </div>
+        <div class="text-box">
+            <div id="textBox"></div>
+            <button id="finalBtn" style="display: none;" onclick="window.location.href='https://tu-url.com'">
+                Continuar
+            </button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
